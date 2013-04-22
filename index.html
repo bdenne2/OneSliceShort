@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<a class="brand" href="/">One slice short</a>
+				<ul class="nav">
+					<li class="active"><a href="/">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<!--<div class="span3">
+				<ul class="thumbnails well well-small">
+					<li>
+						<h5>In the northern Chicago suburbs?</h5>
+						<h5>Want a cake or pastry?</h5>
+						<form>
+							<legend>Contact Us</legend>
+							<input type="text" placeholder="Email" style="width:90%" >
+							<button type="submit" class="btn">Submit</button>
+						</form>
+					</li>
+				</ul>
+			</div>-->
+			<div class="span12">
+				<div class="page-header">
+					<h1>One Slice Short<br />
+					<small>Homemade cakes and pastries</small>
+					</h1>
+				</div>
+				<div id="carousel" class="carousel slide" style="width:50%"> 
+					<div class="carousel-inner">
+						<div class="active item" style="background-image: url(img/tombstone.jpg)">
+							<!--<img src="img/tombstone.jpg"/>-->
+							<!--<div class="carousel-caption">
+								Tombstone cake.	
+							</div>-->
+						</div>
+						<div class="item" style="background-image: url(img/oven.jpg)">
+							<!--<img src="img/oven.jpg" />-->
+							<!--<div class="carousel-caption">
+								This is a test of the broadcasting system. Oven.
+							</div>-->
+						</div>
+					</div>
+					<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="row-fluid">
+			<div class="span3 well">
+			</div>
+			<div class="span3 well">
+			</div>
+			<div class="span3 well">
+			</div>
+			<div class="span3 well">
+			</div>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/bootstrap-carousel.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+<script type="text/javascript">
+	$( function()
+	{
+		$('.carousel').carousel();
+	});
+
+</script>
+</html>
