@@ -5729,9 +5729,7 @@ a.badge:hover {
 }
 
 .carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+  text-align: center;
 }
 
 .carousel .item {
@@ -5744,8 +5742,9 @@ a.badge:hover {
 }
 
 .carousel .item > img {
-  display: block;
-  line-height: 1;
+	 margin:0px auto;
+	   display: block;
+	     line-height: 1;
 }
 
 .carousel .active,
